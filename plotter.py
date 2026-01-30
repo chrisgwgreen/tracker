@@ -10,7 +10,7 @@ from ultralytics import YOLO
 model = YOLO("yolo26n_ncnn_model", task="detect")
 
 # Open the video file
-video_path = "videos/subway-small.mp4"
+video_path = "./videos/subway-small.mp4"
 cap = cv2.VideoCapture(video_path)
 
 # Store the track history

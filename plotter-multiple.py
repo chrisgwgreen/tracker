@@ -6,7 +6,7 @@ import numpy as np
 from ultralytics import YOLO
 
 model = YOLO("yolo26n.pt")
-video_path = "videos/subway-small.mp4"
+video_path = "./videos/subway-small.mp4"
 cap = cv2.VideoCapture(video_path)
 track_history = defaultdict(lambda: [])
 
