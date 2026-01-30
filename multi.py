@@ -6,7 +6,7 @@ from ultralytics import YOLO
 
 # Define model names and video sources
 MODEL_NAMES = ["yolo26n.pt", "yolo26n-seg.pt"]
-SOURCES = [0]  # local video, 0 for webcam
+SOURCES = ["0"]  # local video, 0 for webcam
 
 
 def run_tracker_in_thread(model_name, filename):
