@@ -7,7 +7,7 @@ model = YOLO("yolo26n.pt")
 
 # Open the video file
 video_path = "./videos/london-small.mp4"
-cap = cv2.VideoCapture(video_path)
+cap = cv2.VideoCapture(0)
 
 # Loop through the video frames
 while cap.isOpened():
